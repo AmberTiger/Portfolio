@@ -63,12 +63,15 @@
   }
 }
 
+.container2 .row1 .image2div{  
+  margin-left: 10%;
+}
+
 .container2 .row1 .image2{  
   width: 300px; 
   height: 200px;
   object-fit: cover;
   border-radius: 14px;
-  margin-left: 10%;
 }
 
 /* Tablet (width 768px–1024px) */
@@ -95,12 +98,14 @@
   width: 100%;
   justify-content: center;
 }
+.container2 .row2 .image1div{  
+  margin-left: 21%;
+}
 .container2 .row2 .image1{  
   width: 400px; 
   height: 300px;
   object-fit: cover;
   border-radius: 14px;
-  margin-left: 21%;
 }
 
 /* Tablet (width 768px–1024px) */
@@ -121,12 +126,15 @@
   }
 }
 
+.container2 .row2 .image2div{  
+  margin-left: 10%;
+}
+
 .container2 .row2 .image2{  
   width: 300px; 
   height: 200px;
   object-fit: cover;
   border-radius: 14px;
-  margin-left: 10%;
 }
 
 /* Tablet (width 768px–1024px) */
@@ -153,12 +161,15 @@
   width: 100%;
   justify-content: center;
 }
+
+.container2 .row3 .image1div{ 
+  margin-left: 13%;
+}
 .container2 .row3 .image1{  
   width: 400px; 
   height: 300px;
   object-fit: cover;
   border-radius: 14px;
-  margin-left: 13%;
 }
 
 /* Tablet (width 768px–1024px) */
@@ -178,6 +189,9 @@
     height: calc(300 / 900 * 100vw);
   }
 }
+.container2 .row3 .image2div{  
+  margin-top: 10%;
+}
 
 .container2 .row3 .image2{  
   width: 544px; 
@@ -186,7 +200,6 @@
   border-radius: 14px;
   margin-left: 10%;
   align-self: flex-end;
-  margin-top: 10%;
 }
 
 /* Tablet (width 768px–1024px) */

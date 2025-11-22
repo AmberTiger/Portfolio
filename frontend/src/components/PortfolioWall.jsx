@@ -16,10 +16,22 @@ console.log(PortfolioData)
         const rowClass = rowClasses[index % rowClasses.length]; 
         return (
           <div key={index} className={rowClass}>
-            <img className="image1" src={images[0]} alt={`image-${index * 2 + 1}`} />
-            {images[1] && (
-              <img className="image2" src={images[1]} alt={`image-${index * 2 + 2}`} />
-            )}
+            {images.map((img, idx) => (
+              <div className={idx === 0 ? 'image1div' : 'image2div'}>
+              <a
+                key={idx}
+                href={img.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className={idx === 0 ? 'image1' : 'image2'}
+                  src={img.src}
+                  alt={`image-${index * 2 + idx + 1}`}
+                />
+              </a>
+              </div>
+            ))}
           </div>
         );
       })}
